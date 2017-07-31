@@ -1,0 +1,22 @@
+package Lab2;
+
+public class Sphere extends Shape implements ThreeDShape {
+
+	double v, r;
+	private double pi = 3.14;
+	
+	public Sphere(double v, double r )
+	{
+		this.v=v;
+		this.r=r;
+	}
+	public void volume()
+	{
+		v=4/3*pi*r*r;
+	}
+	
+	public double area()
+	{
+		return 4*pi*r*r;
+	}
+}

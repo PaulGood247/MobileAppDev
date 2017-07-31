@@ -1,0 +1,9 @@
+package Lab2;
+
+public class Sphere extends Shape implements ThreeDShape {
+
+	public abstract void volume()
+	{
+		
+	}
+}

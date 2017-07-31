@@ -1,0 +1,15 @@
+package Lab2;
+
+public abstract class Shape {
+	
+	double x=0;
+	double y=0;
+	double area;
+	
+	public double area()
+	{
+		area =x*y;
+		return area;
+	}
+
+}

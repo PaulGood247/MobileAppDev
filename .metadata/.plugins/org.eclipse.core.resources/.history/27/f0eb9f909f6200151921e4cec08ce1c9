@@ -1,0 +1,38 @@
+package Lab2;
+
+public class Circle extends Shape {
+
+	private double pi=3.14;
+	private double r=0;
+	
+	public Circle(double r)
+	{
+		super();
+		this.r=r;
+	}
+	
+	
+	@Override
+	public String toString() {
+		return "Circle [pi=" + pi + ", r=" + r + " area=" + area + "]";
+	}
+
+
+	public double getPi() {
+		return pi;
+	}
+
+	public double getR() {
+		return r;
+	}
+
+	public void setR(double r) {
+		this.r = r;
+	}
+
+	public double area()
+	{
+		area=pi*r*r;
+		return area;
+	}
+}

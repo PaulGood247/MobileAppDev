@@ -1,0 +1,13 @@
+package Lab2;
+
+public class Circle extends Shape {
+
+	double pi=3.14;
+	double r=0;
+	
+	public double area()
+	{
+		area=pi*r*r;
+		return area;
+	}
+}

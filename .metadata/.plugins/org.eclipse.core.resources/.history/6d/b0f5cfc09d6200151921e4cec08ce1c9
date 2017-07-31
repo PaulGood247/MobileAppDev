@@ -1,0 +1,17 @@
+package Lab2;
+
+import java.util.*;
+public class Lab2Main {
+	 
+	public static void main(String[] args) {
+		
+		ArrayList<Shape> shapes = new ArrayList<Shape>();
+		
+		Circle c =new Circle(5);
+		for (int i; i<10; i++)
+		{
+			shapes.add(c);
+		}
+	}
+
+}

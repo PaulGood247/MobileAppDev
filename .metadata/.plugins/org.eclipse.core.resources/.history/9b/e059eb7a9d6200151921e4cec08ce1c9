@@ -1,0 +1,19 @@
+package Lab2;
+
+public class Square extends Shape {
+
+	public Square(double x, double y)
+	{
+		super(x, y);
+	}
+	@Override
+	public String toString() {
+		return "Square [x=" + x + ", y=" + y + ", area=" + area + "]";
+	}
+	
+	public double getX()
+	{
+		return super.x;
+	}
+	
+}
